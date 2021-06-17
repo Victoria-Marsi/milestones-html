@@ -1,63 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic Tags</title>
     <style>
-        .schoolTable{
-            color:blueviolet;
-        }
-        table.shelterTable{
-            color: purple;
-        }
-        .fruits{
+        .schoolTable {
             color: blueviolet;
         }
-        #blockLeveltextContainers h2{
+
+        table.shelterTable {
+            color: purple;
+        }
+
+        .fruits {
+            color: blueviolet;
+        }
+
+        #blockLeveltextContainers h2 {
             color: palevioletred;
         }
-        section.sameColor{
+
+        section.sameColor {
             border: 2px dashed rgb(245, 172, 184);
         }
     </style>
 </head>
+
 <body>
     <h1>Basic Tags</h1>
     <section id="blockLeveltextContainers">
         <h2>Block Level Text Containers</h2>
         <p>The &lt;p&gt; tag creates a paragraph</p>
-        <blockquote cite="https://www.w3schools.com/tags/tag_blockquote.asp"> The &lt;blockquote&gt; tag specifies a section that is quoted from another source.</blockquote>
+        <blockquote cite="https://www.w3schools.com/tags/tag_blockquote.asp"> The &lt;blockquote&gt; tag specifies a
+            section that is quoted from another source.</blockquote>
         <pre>The &lt;pre&gt; tag defines preformatted text.</pre> <!-- https://www.w3schools.com/tags/tag_pre.asp -->
     </section>
 
     <section class="sameColor">
         <h2>Inline Text Styling</h2>
-        <em>The &lt;em&gt; tag is used to define emphasized text. Usually in italics.</em> <!--https://www.w3schools.com/tags/tag_em.asp -->
-        <div><i> The &lt;i&gt; tag is used to define a part of text in an alternate voice or mood. Usually in italics.</i></div> <!--https://www.w3schools.com/tags/tag_i.asp -->
-        <div><strong> The &lt;strong&gt; tag is used to define text with strong importance. Usually in bold.</strong></div> <!-- https://www.w3schools.com/tags/tag_strong.asp -->
-        <b> The &lt;b&gt; tag specifies bold text without any extra importance.</b> <!-- https://www.w3schools.com/tags/tag_b.asp -->
-        <div><code>The &lt;code&gt; tag is used to define a piece of computer code. The content inside is displayed in the browser's default monospace font.</code></div> <!--https://www.w3schools.com/tags/tag_code.asp -->
+        <em>The &lt;em&gt; tag is used to define emphasized text. Usually in italics.</em>
+        <!--https://www.w3schools.com/tags/tag_em.asp -->
+        <div><i> The &lt;i&gt; tag is used to define a part of text in an alternate voice or mood. Usually in
+                italics.</i></div>
+        <!--https://www.w3schools.com/tags/tag_i.asp -->
+        <div><strong> The &lt;strong&gt; tag is used to define text with strong importance. Usually in bold.</strong>
+        </div> <!-- https://www.w3schools.com/tags/tag_strong.asp -->
+        <b> The &lt;b&gt; tag specifies bold text without any extra importance.</b>
+        <!-- https://www.w3schools.com/tags/tag_b.asp -->
+        <div>
+            <code>The &lt;code&gt; tag is used to define a piece of computer code. The content inside is displayed in the browser's default monospace font.</code>
+        </div>
+        <!--https://www.w3schools.com/tags/tag_code.asp -->
         The <a href="https://www.w3schools.com/tags/tag_a.asp">&lt;a&gt; tag </a> defines a hyerlink.
-        The &lt;img&gt; tag is used to embed an image in an HTML page. <!-- https://www.w3schools.com/tags/tag_img.asp -->
+        The &lt;img&gt; tag is used to embed an image in an HTML page.
+        <!-- https://www.w3schools.com/tags/tag_img.asp -->
         <div id="htmlTags"><img src="html-tags.png" alt="" srcset=""></div>
-        <h1>The &lt;h1&gt; tag header should represent the main heading/subject for the whole page.</h1> <!-- https://www.w3schools.com/tags/tag_hn.asp -->
-        <h2>The &lt;h2&gt; tag header is used after the &lt;h1&gt; tag header and is usually of less importance than the &lt;h1&gt; tag header. </h2> <!--https://www.w3schools.com/html/html_headings.asp -->
-        <h3>The &lt;h3&gt; tag header is used after the &lt;h2&gt; tag header and is usually of less importance than the &lt;h2&gt; tag header.</h3>
+        <h1>The &lt;h1&gt; tag header should represent the main heading/subject for the whole page.</h1>
+        <!-- https://www.w3schools.com/tags/tag_hn.asp -->
+        <h2>The &lt;h2&gt; tag header is used after the &lt;h1&gt; tag header and is usually of less importance than the
+            &lt;h1&gt; tag header. </h2>
+        <!--https://www.w3schools.com/html/html_headings.asp -->
+        <h3>The &lt;h3&gt; tag header is used after the &lt;h2&gt; tag header and is usually of less importance than the
+            &lt;h2&gt; tag header.</h3>
     </section>
-    
+
     <section class="sameColor">
         <h2>Lists</h2>
-    <ul>
-        <li>To create an unordered list use the &lt;ul&gt; tag.</li>
-        <ol>
-        <li>To create an ordered lists use the &lt;ol&gt; tag.</li>
-        <li>This is the second item in my ordered list</li>
-        </ol>
-        <li>The &lt;li&gt; tag creates the different items on each line in the list.</li>
-        <img src="list.jpg" alt="" srcset="">
-    </ul>
+        <ul>
+            <li>To create an unordered list use the &lt;ul&gt; tag.</li>
+            <ol>
+                <li>To create an ordered lists use the &lt;ol&gt; tag.</li>
+                <li>This is the second item in my ordered list</li>
+            </ol>
+            <li>The &lt;li&gt; tag creates the different items on each line in the list.</li>
+            <img src="list.jpg" alt="" srcset="">
+        </ul>
     </section>
 
     <section id="table">
@@ -66,7 +86,7 @@
             <table>
                 <tr>
                     <th>School</th>
-                    <th># of Boys</th> 
+                    <th># of Boys</th>
                     <th># of Girls</th>
                 </tr>
                 <tr>
@@ -91,7 +111,7 @@
                 <tr>
                     <th>Shelter Name</th>
                     <th>Dogs</th>
-                    <th>Cats</th> 
+                    <th>Cats</th>
                 </tr>
                 <tr>
                     <td>Lancaster Shelter</td>
@@ -109,7 +129,7 @@
             <table>
                 <tr>
                     <th>Apples</th>
-                    <th>Carrots</th> 
+                    <th>Carrots</th>
                     <th>Mangos</th>
                     <th>Peaches</th>
                 </tr>
@@ -121,11 +141,14 @@
                 </tr>
             </table>
         </div>
-        The &lt;table&gt; tag defines an HTML table. The &lt;tr&gt; tag defines a table row. The &lt;td&gt; defines each table data/cell (elements are 
-        regular and left-aligned). The &lt;th&gt; defines a table header (the elements are bold and centered). <!--https://www.w3schools.com/html/html_tables.asp -->
+        The &lt;table&gt; tag defines an HTML table. The &lt;tr&gt; tag defines a table row. The &lt;td&gt; defines each
+        table data/cell (elements are
+        regular and left-aligned). The &lt;th&gt; defines a table header (the elements are bold and centered).
+        <!--https://www.w3schools.com/html/html_tables.asp -->
     </section>
-<h2>Links</h2>
-<a href="index.html">Index Page</a>
+    <h2>Links</h2>
+    <a href="index.html">Index Page</a>
 
 </body>
+
 </html>
